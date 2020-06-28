@@ -1,0 +1,11 @@
+{
+  int m,n,r,t;
+  m=12;n=21;
+  if(m<n){
+    t=m;m=n;n=t;
+   }
+  r=m%n;
+  while(r!=0){
+   m=n;n=r;r=m%n;
+  }
+}
